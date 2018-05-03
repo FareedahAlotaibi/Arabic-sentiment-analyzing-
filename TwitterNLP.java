@@ -50,7 +50,7 @@ public class TwitterNLP extends TwitterSparkBase {
         SparkConf sparkConf = new SparkConf().setAppName(TwitterNLP.class.getSimpleName()).setMaster("local[2]");
 
         JavaStreamingContext jssc = new JavaStreamingContext(sparkConf, Durations.seconds(5));
-        String[] filters = { "Trump"};
+        String[] filters = { "سوريا"};
 
         JavaReceiverInputDStream<Status> stream = TwitterUtils.createStream(jssc,filters);
 

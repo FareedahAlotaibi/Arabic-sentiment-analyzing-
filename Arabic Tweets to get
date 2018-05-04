@@ -11,8 +11,8 @@ import java.util.Map;
 
 public class zezo{
 	
-	private static final String CONSUMER_KEY		= "AaIHjAb9QsOUkOdYg2pr0YIyz";
-	private static final String CONSUMER_SECRET 	= "PTORoMcLLzLt5BTQflbyLsWhJHRjE6XLHmX7ROh6TqM776Yd8n";
+	private static final String CONSUMER_KEY		= "XXXXXXXXXXXXXXX";
+	private static final String CONSUMER_SECRET 	= "xxxxxxxxxxxxxxxxxxxxxxxxxx";
   
 	private static final int TWEETS_PER_QUERY		= 10;
 

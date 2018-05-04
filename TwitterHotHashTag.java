@@ -46,10 +46,10 @@ public class TwitterSparkCrawler {
         }
 
     }
-    final String consumerKey = "gfIHbKpATNcNylIlkGbNCMivW";
-    final String consumerSecret = "tWsDGla1oa8MOzRF0PrChHoMs14v4Uqcqp0dkxGwcsf6T9N2p8";
-    final String accessToken = "948558085785825282-84Vyr8B3HXFoj6quXJNZuIqELRncaej";
-    final String accessTokenSecret = "4qORRr8TiEggsIhEHA8DmjwXYILEbpV5bzOI36ctsesg7";
+    final String consumerKey = "xxxxxxxxxxxxxxxxxxxxx";
+    final String consumerSecret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+    final String accessToken = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+    final String accessTokenSecret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
     private void run(CompositeConfiguration conf) throws InterruptedException {
         // Spark conf
@@ -126,7 +126,7 @@ public class TwitterSparkCrawler {
             
             // create a mysql database connection
             Class.forName("com.mysql.jdbc.Driver").newInstance();
-            conn = DriverManager.getConnection(TwitterDBConnectionString.DB_URL, "root", "12345678");
+            conn = DriverManager.getConnection(TwitterDBConnectionString.DB_URL, "root", "");
             String query = " insert into tweetswithanalysis (TweetText,Device,Location,CreatedAt) values (?, ?, ?, Now())";
             // create the mysql insert preparedstatement
             preparedStmt = conn.prepareStatement(query);

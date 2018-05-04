@@ -35,7 +35,7 @@ import scala.Tuple2;
  *
  * I am not sure if I need to store these analysis data into mysql.
  *
- * @author osydah, joumah
+ * @author xxx
  *
  */
 public class TwitterNLP extends TwitterSparkBase {

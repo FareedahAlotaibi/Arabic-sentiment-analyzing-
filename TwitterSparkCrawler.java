@@ -46,10 +46,10 @@ public class TwitterSparkCrawler {
         }
 
     }
-    final String consumerKey = "gfIHbKpATNcNylIlkGbNCMivW";
-    final String consumerSecret = "tWsDGla1oa8MOzRF0PrChHoMs14v4Uqcqp0dkxGwcsf6T9N2p8";
-    final String accessToken = "948558085785825282-84Vyr8B3HXFoj6quXJNZuIqELRncaej";
-    final String accessTokenSecret = "4qORRr8TiEggsIhEHA8DmjwXYILEbpV5bzOI36ctsesg7";
+    final String consumerKey = "xxxxxxxxxxxxxxxxxxxxxxxxx";
+    final String consumerSecret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+    final String accessToken = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+    final String accessTokenSecret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
     private void run(CompositeConfiguration conf) throws InterruptedException {
         // Spark conf
